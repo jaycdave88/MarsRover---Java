@@ -28,7 +28,6 @@ public class FileParserIO {
 	
 		public void createAndAdd(){
 			 BufferedWriter writer = null;
-			 
 			    try {
 			        writer = new BufferedWriter(new FileWriter("./output.txt"));
 			        writer.write(dummbyData);
